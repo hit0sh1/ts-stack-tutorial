@@ -42,3 +42,5 @@ const RootLayout = async ({ children }: RootLayoutProps) => {
     </html>
   );
 };
+
+export default RootLayout;
