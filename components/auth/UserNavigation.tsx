@@ -23,7 +23,7 @@ const UserNavigation = ({ user }: UserNavigationProps) => {
       <DropdownMenuTrigger>
         <div className="relative w-10 h-10 flex-shrink-0">
           <Image
-            src={user.image || "/default.png"}
+            src={user.image || "/default-avatar.png"}
             alt={user.name || "avatar"}
             fill
             className="rounded-full object-cover"
